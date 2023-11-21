@@ -2,6 +2,8 @@ import { createContext, useContext, useReducer } from 'react';
 
 const AuthContext = createContext();
 
+// adding initial state
+
 const initialState = {
   user: null,
   isAuthenticated: false,
