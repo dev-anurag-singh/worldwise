@@ -8,7 +8,11 @@ import {
 
 const CitiesContext = createContext();
 
+// Base URL
+
 const BASE_URL = 'http://localhost:8000';
+
+// Adding Initial State
 
 const initialState = {
   cities: [],
